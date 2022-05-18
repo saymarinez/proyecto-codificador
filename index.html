@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Decodificador</title>
+  </head>
+  <body>
+
+
+
+
+    <header>
+      <img src="aluralogo.png" alt=" alura logo" />
+    </header>
+    <main class="main">
+      <section>
+        <textarea
+        class="input-texto"
+        cols="40"
+          rows="6"
+          placeholder="digite seu texto:"
+          ></textarea>
+          <div>
+          <h6 class="informacao">Apenas letras maiúsculas e minúsculas</h6>
+        </div>
+        <div class="botoes">
+          <button class="encriptar" onclick="btnEncriptar()">Criptografar</button>
+          <button class="desencriptar" onclick="btndesencriptar()">descriptografar</button>
+        
+        </div>
+      </section>
+      <section>
+        <textarea 
+        id="texto"
+        value=""
+        class="mensagem" 
+        cols="18"
+        rows="12"
+          placeholder="esto es un mensaje"></textarea>
+        
+        <button id="botao" class="copi">copiar</button>
+      </section>
+
+    </main>
+<div> 
+
+    <script src="/script.js"></script>
+        <script> type="text/javascript">
+        document.getElementById("botao").addEventListener("click", function(){
+        
+          document.getElementById("texto").select();
+          document.execCommand("copy");
+        });
+      </script>
+  </body>
+</html>

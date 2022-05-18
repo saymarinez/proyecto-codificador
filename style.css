@@ -1,0 +1,88 @@
+* {
+  font-family: 'inter', sans-serif;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 150%;
+}
+body {
+  background-color: #f8e5f3;
+}
+
+.main {
+  display: flex;
+  margin-left: 80px;
+  margin-bottom: 50px;
+}
+
+.input-texto {
+  margin-top: 90px;
+}
+.mensagem {
+  position: relative;
+  margin-top: 20px;
+  margin-left: 90px;
+  background-image: url('muñecaalura.png');
+  background-repeat: no-repeat;
+}
+
+.copi {
+  display: flex;
+  margin-left: 250px;
+  height: 30px;
+  width: 62px;
+  font-size: 16px;
+  text-align: center;
+  border: none;
+  position: absolute;
+  margin-top: -100px;
+  background-color: rgb(227, 168, 230);
+  border-radius: 20px;
+  font-family: 'inter', sans-serif;
+  color: rgb(238, 87, 195);
+  transition: background 0.5s;
+  transition: box-shadow 0.8s;
+}
+
+.copi:hover {
+  background-color: rgba(231, 129, 218, 0.5);
+  box-shadow: 5px 5px 5px;
+  color: rgb(133, 88, 229);
+}
+
+.encriptar {
+  background-color: rgb(231, 129, 218);
+  color: rgb(75, 10, 46);
+  border: none;
+  border-radius: 6px;
+  transition: background 0.5s;
+  transition: box-shadow 0.8s;
+}
+
+.encriptar:hover {
+  background-color: rgba(231, 129, 218, 0.5);
+  box-shadow: 5px 5px 5px;
+  color: rgb(133, 88, 229);
+}
+
+.desencriptar {
+  margin-left: 30px;
+  background-color: rgb(240, 109, 181);
+  color: rgb(243, 181, 235);
+  border: none;
+  border-radius: 6px;
+  transition: background 0.5s;
+  transition: box-shadow 0.8s;
+}
+
+.desencriptar:hover {
+  background-color: rgba(167, 10, 146, 0.5);
+  box-shadow: 5px 5px 5px;
+  color: rgb(242, 12, 192);
+}
+.informacao {
+  font-size: 15px;
+}
+
+button {
+  cursor: pointer;
+}
